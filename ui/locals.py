@@ -14,6 +14,7 @@ WINDOW_HEIGHT=GAME_HEIGHT+2*WINDOW_PADDING
 
 
 class Direction(Enum):
+    NONE=-1
     UP=0
     DOWN=1
     LEFT=2
